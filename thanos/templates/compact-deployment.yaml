@@ -47,7 +47,7 @@ spec:
         - "--objstore.config-file=/etc/config/{{ .Values.objstore.configFile }}"
         - "--retention.resolution-raw=30d"
         - "--retention.resolution-5m=120d"
-        - "--retention.resolution-1h=10y"
+        - "--retention.resolution-1h=1y"
         - "--sync-delay=30m"
         - "--data-dir=/var/thanos/store"
         - "--wait"
